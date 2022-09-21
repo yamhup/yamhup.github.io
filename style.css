@@ -1,0 +1,61 @@
+body{
+	background: url(header.jpg) no-repeat center center fixed; 
+ 	 -webkit-background-size: cover;
+  	-moz-background-size: cover;
+ 	 -o-background-size: cover;
+ 	 background-size: cover;
+ 	 width:100% ;
+	height: 100%;
+
+}
+/*圖片效果要放在body裡面,放html會失效*/
+html{
+	width:100% ;
+	height: 100%;
+	font-family: 'Big Shoulders Display', cursive;
+}
+
+hr {
+    margin: 20px auto;
+    color: #F05F44;
+    border: 3px solid #F05F44;
+    max-width: 65px;
+    opacity: 1;  
+}
+
+h1{
+	font-size: 3rem;
+	color: lavenderblush;
+}
+
+.buffer{
+	height: 10rem;
+}
+
+.btn{
+	font-weight: 1000;
+	border-radius: 300px;
+	text-transform: uppercase;
+}
+
+.btn-primary{
+	background-color: lavenderblush;
+	border-color: lavenderblush;
+	color: deeppink;
+	
+	}
+/*didnt work for hover*/
+.btn-primary :hover{
+	background-color:#450131;
+	border-color: #450131; 
+	border-width: 4px;
+}
+
+.btn-xl{
+	padding: 1rem 2em;
+}
+
+
+
+
+
