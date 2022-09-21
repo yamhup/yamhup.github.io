@@ -27,6 +27,11 @@ h1{
 	font-size: 3rem;
 	color: lavenderblush;
 }
+.animate{
+	display: inline-block;
+	--animate-duration: 5s;
+}
+
 
 .buffer{
 	height: 10rem;
@@ -45,10 +50,10 @@ h1{
 	
 	}
 /*didnt work for hover*/
-.btn-primary :hover{
-	background-color:#450131;
-	border-color: #450131; 
-	border-width: 4px;
+.btn-primary:hover{
+	background-color:#450131 !important;
+	border-color: #450131 !important;
+	border-width: 4px!important;
 }
 
 .btn-xl{
